@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+  /* Allow scrolling within the container */
+  .table-container {
+    padding: 0 10px; /* Optional padding for aesthetics */
+  }
+
+  /* Make table headers sticky for better visibility on scroll */
+  #booktable th {
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f4;
+  }
+  /* Wrap table in a scrollable container */
+.table-container {
+  width: 100%;
+  overflow-x:visible; /* Enables horizontal scrolling */
+  margin: 0 auto;
+}
+}
+
+.update-books-container {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.scrollable-table {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.book-table {
+  min-width: 800px;
+  width: 100%;
+}
+
+#sidebar{
+  background-color: #2f3438;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+.profile-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #54473F;
+  text-align: center;
+}
+
+.profile-details p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.profile-details strong {
+  color: white;
+}

@@ -1,0 +1,97 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .landing-page {
+    background-image: url('../../Assets/Images/book-8898178_1280.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 106vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+  }
+  
+  .landing-title {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .landing-description {
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .landing-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .landing-button {
+    padding: 10px 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #54473F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .landing-button:hover {
+    background-color: #423832;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .landing-title {
+      font-size: 40px;
+      padding-top: 20px;
+    }
+  
+    .landing-description {
+      font-size: 1rem;
+      padding: 15px;
+    }
+  
+    .landing-button {
+      width: 200px;
+      height: 45px;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .landing-title {
+      font-size: 30px;
+      padding-top: 10px;
+    }
+  
+    .landing-description {
+      font-size: 0.9rem;
+    }
+  
+    .landing-button {
+      width: 200px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  
